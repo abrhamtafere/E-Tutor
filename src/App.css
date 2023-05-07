@@ -1,5 +1,17 @@
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
 
+.active a{
+  background-color: red;
+  color: #fff;
+}
 
+.home{
+  background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url(./assets/images/back.webp);
+  
+  height: 100vh;
+}
 
 
 
