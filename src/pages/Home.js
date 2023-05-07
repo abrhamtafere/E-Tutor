@@ -1,6 +1,9 @@
 import React from 'react'
+import History from '../components/History'
 import Landing from '../components/Landing'
+import Popular from '../components/Popular'
 import Service from '../components/Service'
+import Teacher from '../components/Teacher'
 
 function Home() {
   return (
@@ -12,6 +15,15 @@ function Home() {
       </div>
       <div className='bg-white h-full'>
         <Service />
+      </div>
+      <div>
+        <Teacher />
+      </div>
+      <div>
+        <Popular />
+      </div>
+      <div>
+        <History />
       </div>
     </>
   )
