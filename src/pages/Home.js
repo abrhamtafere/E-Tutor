@@ -1,15 +1,19 @@
 import React from 'react'
+import Landing from '../components/Landing'
+import Service from '../components/Service'
 
 function Home() {
   return (
-    <div className='mt-19 home '>
-      <div className='absolute top-20'>
-        <h1 className='text-3xl text-white font-semibold p-10'>E-Tutor the first company to estaplished for service</h1>
+    <>
+      <div className='relative home mt-19 flex flex-col'>
+        <div className='mt-40'>
+          <Landing />
+        </div>
       </div>
-      <div className=' p-20 h-full'>
-      
+      <div className='bg-white h-full'>
+        <Service />
       </div>
-    </div>
+    </>
   )
 }
 

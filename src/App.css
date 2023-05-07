@@ -3,14 +3,18 @@
 }
 
 .active a{
-  background-color: red;
+  border-bottom: solid 2px #D1A825;
   color: #fff;
+  border-radius: 5%;
+  background-repeat: no-repeat;
 }
 
 .home{
   background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url(./assets/images/back.webp);
-  
-  height: 100vh;
+}
+
+.servcard:hover .text{
+  color: white;
 }
 
 
